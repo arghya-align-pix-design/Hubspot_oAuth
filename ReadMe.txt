@@ -1,3 +1,28 @@
+ **** HubSpot OAuth Integration Assessment ****
+
+This project implements a complete HubSpot OAuth integration workflow using FastAPI and Redis, as part of a technical assessment for VectorShift.
+
+Features:
+
+OAuth2 flow to authenticate and store HubSpot credentials securely.
+Retrieval and display of HubSpot contacts (including metadata such as name, creation time, and company).
+Frontend interface (React) to trigger authorization and load data.
+
+Notes:
+
+This project was completed within a week, including learning and applying FastAPI and asynchronous Python concepts.
+The codebase demonstrates practical OAuth handling, API integration, and full-stack data flow.
+
+How to Run:
+Redis must be running on port 6379.
+
+Backend defaults to port 6299.
+Configure your HubSpot client credentials and redirect URI as per the README instructions.
+
+Disclaimer:
+Client secrets used for testing have been redacted.
+
+
 ***HubSpot App Setup Instructions***
 1) Create a HubSpot Developer Account
 
